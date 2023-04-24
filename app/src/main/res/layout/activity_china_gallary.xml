@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChinaGallary">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginVertical="10dp"
+                android:text="China Gallary"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/china1"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:onClick="openZoomedImage"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/china1" />
+
+                <ImageView
+                    android:id="@+id/china2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:onClick="openZoomedImage"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/china2" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/china3"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:onClick="openZoomedImage"
+                android:scaleType="fitXY"
+                android:src="@drawable/china3" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/china4"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:onClick="openZoomedImage"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/china4" />
+
+                <ImageView
+                    android:id="@+id/china5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:onClick="openZoomedImage"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/china5" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/china6"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:onClick="openZoomedImage"
+                android:scaleType="fitXY"
+                android:src="@drawable/china6" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/china7"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:onClick="openZoomedImage"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/china7" />
+
+                <ImageView
+                    android:id="@+id/china8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:onClick="openZoomedImage"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/china8" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/china9"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:onClick="openZoomedImage"
+                android:scaleType="fitXY"
+                android:src="@drawable/china9" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/china10"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:onClick="openZoomedImage"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/china10" />
+
+                <ImageView
+                    android:id="@+id/china11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:onClick="openZoomedImage"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/china11" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/china12"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:onClick="openZoomedImage"
+                android:scaleType="fitXY"
+                android:src="@drawable/china12" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/china13"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:onClick="openZoomedImage"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/china13" />
+
+                <ImageView
+                    android:id="@+id/china14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:onClick="openZoomedImage"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/china14" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/china15"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:onClick="openZoomedImage"
+                android:scaleType="fitXY"
+                android:src="@drawable/china15" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/china16"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:onClick="openZoomedImage"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/china16" />
+
+                <ImageView
+                    android:id="@+id/china17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:onClick="openZoomedImage"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/china17" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/china18"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:onClick="openZoomedImage"
+                android:scaleType="fitXY"
+                android:src="@drawable/china18" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/china19"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:onClick="openZoomedImage"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/china19" />
+
+                <ImageView
+                    android:id="@+id/china20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:onClick="openZoomedImage"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/china20" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/china21"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:onClick="openZoomedImage"
+                android:scaleType="fitXY"
+                android:src="@drawable/china21" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/china22"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:onClick="openZoomedImage"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/china22" />
+
+                <ImageView
+                    android:id="@+id/china23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:onClick="openZoomedImage"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/china23" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/china24"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:onClick="openZoomedImage"
+                android:scaleType="fitXY"
+                android:src="@drawable/china24" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/china25"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:onClick="openZoomedImage"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/china25" />
+
+                <ImageView
+                    android:id="@+id/china26"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:onClick="openZoomedImage"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/china26" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/china27"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:onClick="openZoomedImage"
+                android:scaleType="fitXY"
+                android:src="@drawable/china27" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/china28"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:onClick="openZoomedImage"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/china28" />
+
+                <ImageView
+                    android:id="@+id/china29"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:onClick="openZoomedImage"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/china29" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/china30"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:onClick="openZoomedImage"
+                android:scaleType="fitXY"
+                android:src="@drawable/china30" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/china31"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:onClick="openZoomedImage"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/china31" />
+
+                <ImageView
+                    android:id="@+id/china32"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:onClick="openZoomedImage"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/china32" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/china33"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:onClick="openZoomedImage"
+                android:scaleType="fitXY"
+                android:src="@drawable/china33" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/china34"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:onClick="openZoomedImage"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/china34" />
+
+                <ImageView
+                    android:id="@+id/china35"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:onClick="openZoomedImage"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/china35" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/china36"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:onClick="openZoomedImage"
+                android:scaleType="fitXY"
+                android:src="@drawable/china36" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TravelApp"
+        tools:targetApi="31">
+        <activity
+            android:name=".Home"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ContactUs"
+            android:exported="false" />
+        <activity
+            android:name=".ZoomImageView"
+            android:exported="false" />
+        <activity
+            android:name=".SpainGettingAround"
+            android:exported="false" />
+        <activity
+            android:name=".SpainGallary"
+            android:exported="false" />
+        <activity
+            android:name=".SpainAccomodations"
+            android:exported="false" />
+        <activity
+            android:name=".SpainCuisines"
+            android:exported="false" />
+        <activity
+            android:name=".HomeSpain"
+            android:exported="false" />
+        <activity
+            android:name=".JapanGettingAround"
+            android:exported="false" />
+        <activity
+            android:name=".JapanGallary"
+            android:exported="false" />
+        <activity
+            android:name=".JapanAccomodations"
+            android:exported="false" />
+        <activity
+            android:name=".JapanCuisines"
+            android:exported="false" />
+        <activity
+            android:name=".HomeJapan"
+            android:exported="false" />
+        <activity
+            android:name=".FranceGettingAround"
+            android:exported="false" />
+        <activity
+            android:name=".FranceGallary"
+            android:exported="false" />
+        <activity
+            android:name=".FranceAccomodations"
+            android:exported="false" />
+        <activity
+            android:name=".FrancceCuisines"
+            android:exported="false" />
+        <activity
+            android:name=".HomeFrance"
+            android:exported="false" />
+        <activity
+            android:name=".ChinaGettingAround"
+            android:exported="false" />
+        <activity
+            android:name=".ChinaGallary"
+            android:exported="false" />
+        <activity
+            android:name=".ChinaCuisines"
+            android:exported="false" />
+        <activity
+            android:name=".ChinaAccomodations"
+            android:exported="false" />
+        <activity
+            android:name=".HomeChina"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

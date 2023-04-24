@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JapanCuisines">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Recommended Cuisines"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:layout_marginVertical="30dp"
+                android:gravity="center"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="229dp"
+                    android:background="@drawable/round_border"
+                    android:src="@drawable/japancuisine1" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sushi"
+                    android:textSize="25dp"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sushi is one of the best known Japanese foods around the world. It is offered in various ways and prices, from the entertaining kaiten-zushi (conveyor belt sushi), where visitors can enjoy sushi for a reasonable price of about 100 yen per plate, to high-end, long-established, traditional Edomae sushi (Edo-style sushi) where you will sit at a quiet counter to eat as the sushi is prepared right before your eyes. Sushi can be eaten with chopsticks or directly with your hand. However, there's one thing you should be careful about. When dipping the sushi in soy sauce, you should turn it over and apply the soy sauce to the neta, rather than the rice itself. This is to prevent the rice from sucking up too much soy sauce and erasing the original taste of the neta itself."
+                    android:textSize="18dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginVertical="10dp"
+                    android:layout_gravity="center"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="#000000"
+                    android:layout_marginVertical="10dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="229dp"
+                    android:background="@drawable/round_border"
+                    android:src="@drawable/japancuisine2" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Unagi - Grilled Eel"
+                    android:textSize="25dp"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Unagi, or eel, is a fish known to be found mainly in rivers. In Japan, it is a delicacy typical in high-class Japanese dining. There are also many casual restaurants that specialize in unagi dishes. At unagi restaurants, you will be able to enjoy kabayaki, where the unagi is put on skewers and grilled with a special sauce containing soy sauce, mirin, sugar, and sake. Unadon, a dish of kabayaki on top of white rice, is also offered at these establishments."
+                    android:textSize="18dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginVertical="10dp"
+                    android:layout_gravity="center"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="#000000"
+                    android:layout_marginVertical="10dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="229dp"
+                    android:background="@drawable/round_border"
+                    android:src="@drawable/japancuisine3" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tempura"
+                    android:textSize="25dp"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tempura is a dish involving ingredients like seafood, meat, and vegetables covered in batter and deep-fried in oil. The batter usually contains flour and egg. Tempura is generally dipped in a special sauce called tentsuyu before eating. Tentsuyu is a sauce made of broth from kombu or dried bonito, mirin, and soy sauce mixed at a ratio of 4:1:1 and cooked. You can add ginger or grated radish to your liking for a more refreshing taste."
+                    android:textSize="18dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginVertical="10dp"
+                    android:layout_gravity="center"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="#000000"
+                    android:layout_marginVertical="10dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="229dp"
+                    android:background="@drawable/round_border"
+                    android:src="@drawable/japancuisine4" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Soba (Buckwheat Noodles)"
+                    android:textSize="25dp"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Soba is a noodle dish made from buckwheat flour with water and flour, thinly spread and cut into noodles with widths of 1cm-2cm. After boiling the noodles in hot water, it is eaten dipped in cold soup, or by pouring hot soup over it. The soba broth (tsuyu) is typically made from kombu or dried bonito broth, seasoned with soy sauce and mirin, and is crucial for having a delicious soba experience. Soba is enjoyed hot or cold, making it an ideal dish year-round."
+                    android:textSize="18dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginVertical="10dp"
+                    android:layout_gravity="center"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="#000000"
+                    android:layout_marginVertical="10dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="229dp"
+                    android:background="@drawable/round_border"
+                    android:src="@drawable/japancuisine5" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yakitori - Grilled Chicken Skewers"
+                    android:textSize="25dp"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yakitori is a popular food where chicken is cut into small pieces, then placed on bamboo skewers and grilled. It is often found on the menus of izakaya and casual restaurants, making it a good option for a night out in Japan with friends. It is especially delicious when paired with alcohol. Also, if you go to a Japanese festival, there is a good chance that food stalls will be selling this classic dish. Yakitori is ordered at restaurants by the part of the chicken. You will also find other types of meat and vegetables on skewers, too. It is usually seasoned lightly with salt when it comes, so take the first bite without adding extra condiments. You can eat right off the skewer."
+                    android:textSize="18dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginVertical="10dp"
+                    android:layout_gravity="center"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="#000000"
+                    android:layout_marginVertical="10dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="229dp"
+                    android:background="@drawable/round_border"
+                    android:src="@drawable/japancuisine6" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sukiyaki"
+                    android:textSize="25dp"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sukiyaki is cooked in a shallow iron pan, traditionally enjoyed in the fall and winter in Japan. It became popular in Japan around the 19th century. Made both in homes and available on menus at restaurants, it is a dish you will want to try when you're craving something hearty. Sukiyaki is made with several different ingredients, like thin slices of beef, green onions, tomatoes, mushrooms, and tofu. Diners prepare the dish themselves by grilling the ingredients in the pan after pouring a few drops of sukiyaki sauce. After the ingredients are cooked thoroughly, to eat sukiyaki in its conventional way, you dip the meat or vegetable into a bowl of beaten egg. The result is a delicious and satisfying dish that goes great with rice and will warm you from the inside out during chilly days."
+                    android:textSize="18dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginVertical="10dp"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

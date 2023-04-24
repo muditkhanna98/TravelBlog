@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FranceGallary">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginVertical="10dp"
+                android:text="France Gallary"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/france1"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:onClick="openZoomedImage"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/france1" />
+
+                <ImageView
+                    android:id="@+id/france2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:onClick="openZoomedImage"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/france2" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/france3"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:onClick="openZoomedImage"
+                android:scaleType="fitXY"
+                android:src="@drawable/france3" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/france4"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:onClick="openZoomedImage"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/france4" />
+
+                <ImageView
+                    android:id="@+id/france5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:onClick="openZoomedImage"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/france5" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/france6"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:onClick="openZoomedImage"
+                android:scaleType="fitXY"
+                android:src="@drawable/france6" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/france7"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:onClick="openZoomedImage"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/france7" />
+
+                <ImageView
+                    android:id="@+id/france8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:onClick="openZoomedImage"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/france8" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/france9"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:onClick="openZoomedImage"
+                android:scaleType="fitXY"
+                android:src="@drawable/france9" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/france10"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:onClick="openZoomedImage"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/france10" />
+
+                <ImageView
+                    android:id="@+id/france11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:onClick="openZoomedImage"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/france11" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/france12"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:onClick="openZoomedImage"
+                android:scaleType="fitXY"
+                android:src="@drawable/france12" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/france13"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:onClick="openZoomedImage"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/france13" />
+
+                <ImageView
+                    android:id="@+id/france14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:onClick="openZoomedImage"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/france14" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/france15"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:onClick="openZoomedImage"
+                android:scaleType="fitXY"
+                android:src="@drawable/france15" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/france16"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:onClick="openZoomedImage"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/france16" />
+
+                <ImageView
+                    android:id="@+id/france17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:onClick="openZoomedImage"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/france17" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/france18"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:onClick="openZoomedImage"
+                android:scaleType="fitXY"
+                android:src="@drawable/france18" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/france19"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:onClick="openZoomedImage"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/france19" />
+
+                <ImageView
+                    android:id="@+id/france20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:onClick="openZoomedImage"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/france20" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/france21"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:onClick="openZoomedImage"
+                android:scaleType="fitXY"
+                android:src="@drawable/france21" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/france22"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:onClick="openZoomedImage"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/france22" />
+
+                <ImageView
+                    android:id="@+id/france23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:onClick="openZoomedImage"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/france23" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/france24"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:onClick="openZoomedImage"
+                android:scaleType="fitXY"
+                android:src="@drawable/france24" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

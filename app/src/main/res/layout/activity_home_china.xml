@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeChina">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="350dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginVertical="10dp"
+                android:text="China"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/flagchina" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="\t\t\t\t\t  Head of Government: Prime minister: Li Keqiang \n
+            Capital:  Beijing (Peking) \n
+            Climate:  Dry seasons and wet monsoons \n
+            Population:  (2021 est.) 1,416,687,000 \n
+            Currency Exchange Rate:  1 USD equals 6.316 Chinese\n
+            yuan renminbi \n
+            Head of State:  President: Xi Jinping"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginVertical="10dp"
+                android:text="China, officially People’s Republic of China, Country, eastern Asia. Area: 3,696,118 sq mi (9,572,900 sq km). Population: (2021 est.) 1,416,687,000. Capital: Beijing. It is the world’s most populous country, the Han (ethnic Chinese) forming more than nine-tenths of the population. Languages: dialects of Han Chinese, Mandarin being the most important. Religions: traditional beliefs, Buddhism, Christianity, Islam, Daoism (all legally sanctioned). Currency: renminbi (of which the unit is the yuan). The southwestern area contains the Plateau of Tibet, which averages more than 13,000 ft (4,000 m) above sea level; its core area, averaging more than 16,000 ft (5,000 m) in elevation, is called “the Roof of the World” and provides the headwaters for many of Asia’s major rivers. China’s northwestern region stretches from Afghanistan to the Northeast (Manchurian) Plain. The Tien Shan (“Celestial Mountains”) separate China’s two major interior basins, the Tarim Basin (containing the Takla Makan Desert) and the Junggar Basin."
+                android:textSize="18sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="openChinaMap"
+                android:src="@drawable/chinamap" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="10dp"
+                        android:onClick="openChinaAccomodations"
+                        android:text="Accomodations" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="10dp"
+                        android:onClick="openChinaCuisines"
+                        android:text="Cuisines" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="10dp"
+                        android:onClick="openChinaGallery"
+                        android:text="Gallery" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="10dp"
+                        android:onClick="openChinaGettingAround"
+                        android:text="Getting Around" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp" />
+        </LinearLayout>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

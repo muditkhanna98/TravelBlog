@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SpainCuisines">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Recommended Cuisines"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:layout_marginVertical="30dp"
+                android:gravity="center"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="229dp"
+                    android:background="@drawable/round_border"
+                    android:src="@drawable/spaincuisine1" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PAELLA – Famous Spanish rice dish"
+                    android:textSize="25dp"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Paella is considered to be a national dish of Spain. If someone asks you to name the top 3 Spanish dishes, your first thought most likely will be Spanish paella. This widely worshiped Spanish rice dish is the all-time most famous dish in Spain. This iconic Spanish food originates from the Spanish region of Valencia but it is eaten all over Spain. No visit to Spain is complete without tasting paella. Ah, you might like to know, paella in the Valencian language means pan.Spanish paella is traditionally flavored with Spanish saffron and rosemary."
+                    android:textSize="18dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginVertical="10dp"
+                    android:layout_gravity="center"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="#000000"
+                    android:layout_marginVertical="10dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="229dp"
+                    android:background="@drawable/round_border"
+                    android:src="@drawable/spaincuisine2" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="GAZPACHO – Famous Spanish tomato soup"
+                    android:textSize="25dp"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Legendary gazpacho is basically a cold tomato soup. But, beyond any question, this famous dish from Spain is among the top 10 Spanish foods. In addition, gazpacho is one of the best tomato soups in the World overall. Spanish gazpacho originates from Andalusia but over time gazpacho has become a Spanish national dish loved by all Spaniards. Gazpacho is traditionally drunk from a glass or traditional Spanish bowl and it comes as an appetizer in Spain. Spanish gazpacho is a classic tapa dish and the ultimate summer soup in Spain. Spanish Gazpacho is one of the main dishes in Spain you simply can’t miss tasting while in Spain!"
+                    android:textSize="18dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginVertical="10dp"
+                    android:layout_gravity="center"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="#000000"
+                    android:layout_marginVertical="10dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="229dp"
+                    android:background="@drawable/round_border"
+                    android:src="@drawable/spaincuisine3" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Salmorejo"
+                    android:textSize="25dp"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="This is a traditional French soup made of onions and beef stock, usually served with croutons and melted cheese on top. Dating back to Roman times, this was traditionally a peasant dish although the current version dates from the 18th century. The soup’s unique flavor comes from the caramelization of the onions, which often have brandy or sherry added during the slow-cooking process. If you’re in a soup mood, why not try Marseille’s traditional soupe de poisson à la rouille. Once a fisherman’s favorite, this soup is characterized by a dollop of garlic and saffron mayonnaise placed on top.Salmorejo is a version of gazpacho originally coming from the town of Cordoba in Andalusia. It is made of pureed tomatoes, bread, garlic, and vinegar. Salmorejo is served with chopped egg or ham on the top. But if you are a vegetarian, you can order salmorejo without topping ham. Personally, I prefer salmorejo to gazpacho. In my opinion, salmorejo is one of the best Spanish food. Salmorejo recipe is one of the recipes from Spain I took home with me. If you are taking a trip to Seville and want to learn how to prepare authentic Andalucian salmorejo, this Spanish cooking class is for you."
+                    android:textSize="18dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginVertical="10dp"
+                    android:layout_gravity="center"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="#000000"
+                    android:layout_marginVertical="10dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="229dp"
+                    android:background="@drawable/round_border"
+                    android:src="@drawable/spaincuisine4" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tortilla Espanola"
+                    android:textSize="25dp"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Spanish tortilla or also called Spanish omelette is the most common food in Spain and one of the most popular food in Spain too. Moreover, tortilla de patatas is another national dish of Spain and the typical food of Spain. Spanish tortilla Espanola is a simple tapas dish made of slow-cooked caramelized onions and potatoes in olive oil and eggs. This famous food from Spain looks more like a quiche than an omelet. Tortilla Espanola is served sliced or squeezed between bread into a sandwich (called bocadillo in Spanish)."
+                    android:textSize="18dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginVertical="10dp"
+                    android:layout_gravity="center"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="#000000"
+                    android:layout_marginVertical="10dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="229dp"
+                    android:background="@drawable/round_border"
+                    android:src="@drawable/spaincuisine5" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Croquetas"
+                    android:textSize="25dp"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="When we talk about tapas food in Spain and common foods of Spain, Spanish croquettes are on the list for sure. Spanish croquettes are fried breadcrumbs and food leftovers tied with potatoes and bechamel sauce. Croquettes in Spain are made with jamon (cured ham), bacalao (codfish), creamy cheese (queso), local black sausage (morcilla), or Spanish blue cheese (queso de Cabrales). Crispy croquettes are typical Spanish tapas food."
+                    android:textSize="18dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginVertical="10dp"
+                    android:layout_gravity="center"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="#000000"
+                    android:layout_marginVertical="10dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="229dp"
+                    android:background="@drawable/round_border"
+                    android:src="@drawable/spaincuisine6" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rabo De Toro"
+                    android:textSize="25dp"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Talking about delicacies in Spain and Spanish food in Spain, ‘rabo de toro‘ takes a special place in traditional Spanish cuisine. Rabo de toro is a famous Spanish bull’s tail stew. Rabo de toro is made by slowly cooking oxtail flavored with red wine, garlic, and thyme at low temperatures. It is an authentic Spanish dish. This typical Spanish dish comes from the town of Cordoba. Buttoday the bull’s tail is one of the most popular Spanish dishes, widely prepared in Spanish homes. Once a working-class meal of Spain, Rabo de toro dish has become a leading delicacy of Spanish gastronomy and one of the top Spanish dishes. To make it short, Rabo de toro belongs to the list of the famous dishes from Spain you definitely need to taste on your trip to Spain!"
+                    android:textSize="18dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginVertical="10dp"
+                    android:layout_gravity="center"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="#000000"
+                    android:layout_marginVertical="10dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

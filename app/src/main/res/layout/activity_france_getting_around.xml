@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FranceGettingAround">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/my_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:src="@drawable/franceplace1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginVertical="10dp"
+                    android:text="---------------PLAN YOUR TRIP---------------" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="10dp"
+                    android:background="#E6ADE5"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="GETTING AROUND FRANCE"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="Public transportation between cities in France is comfortable, quick, usually reliable and reasonably priced. Travel within départements (regions), is handled by a combination of short-haul trains, SNCF buses and public bus companies and can be patchy, especially in rural areas." />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:text="PUBLIC TRANSPORT"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#EAE7E7"
+                android:layout_marginVertical="20dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="BUSES AND COACH"
+                    android:textSize="14sp"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Within most major cities—including Paris, Lyon, and Marseille—public transportation is efficient, comprehensive, and cheap. In smaller towns, such as Rouen, Arles, or Antibes, it’s easy to navigate the city center on foot. Buses are widely used for short-distance travel within départements, especially in rural areas with relatively few train lines (eg Brittany and Normandy)."
+                    android:layout_margin="5dp"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:src="@drawable/franceplace2"
+                    android:layout_margin="10dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#EAE7E7"
+                android:layout_marginVertical="20dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="BICYCLE"
+                    android:layout_marginTop="10dp"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="France is great for cycling. Much of the countryside is drop-dead gorgeous and the country has a growing number of urban and rural pistes cyclables (bike paths and lanes) and an extensive network of secondary and tertiary roads with relatively light traffic (though, often, very narrow shoulders/verges)"
+                    android:layout_margin="5dp"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:src="@drawable/franceplace3"
+                    android:layout_margin="10dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#EAE7E7"
+                android:layout_marginVertical="20dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="AIRCRAFT"
+                    android:layout_marginTop="10dp"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Many large cities across France have international airports: Paris of course, but also Bordeaux, Lyon, Marseille, Nice, Strasbourg, Toulouse. These cities are also well served by domestic flights. Air France (External link), the national airline, offers several flights per day between Paris and most large cities, the average flight time being one hour. Flights between provincial cities are also possible."
+                    android:layout_margin="5dp"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:src="@drawable/franceplace4"
+                    android:layout_margin="10dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#EAE7E7"
+                android:layout_marginVertical="20dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="BOATS"
+                    android:layout_marginTop="10dp"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="There are boat services along France's coasts and to its offshore islands (and the Channel Islands), and ferries aplenty to/from Corsica. France's canals and navigable rivers are perfect for cruising in a rented houseboat, stopping at whim to pick up supplies, dine at a village restaurant or check out a local château by bicycle. Changes in altitude are taken care of by a system of écluses (locks)."
+                    android:layout_margin="5dp"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:src="@drawable/franceplace5"
+                    android:layout_margin="10dp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChinaAccomodations">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#E3DCDC"
+        android:gravity="center">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#E3DCDC"
+                android:stretchColumns="*"
+                >
+                <TableRow>
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="100dp"
+                        android:text="Suggested Accomoddations"
+                        android:gravity="center"
+                        android:textSize="25dp"
+                        android:textStyle="bold"
+                        android:layout_span="3"/>
+                </TableRow>
+                <TableRow>
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/chinah1"
+                        android:layout_column="0"
+                        android:background="#D53838"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginTop="10dp"
+                        android:layout_column="1"
+                        android:paddingRight="30dp">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:layout_marginHorizontal="5dp"
+                            android:text="HOTEL SHANGHAI INN"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginHorizontal="5dp"
+                            android:textSize="12sp"
+                            android:text="Shanghai"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginHorizontal="5dp"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            android:text="2100.00 CAD"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginHorizontal="5dp"
+                            android:textSize="12sp"
+                            android:text="8 kms from City Center"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:paddingLeft="10dp"
+                        android:layout_column="1"
+                        android:background="#AEA8A8">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginHorizontal="5dp"
+                            android:text="8.9"
+                            android:layout_column="2"
+                            android:layout_marginTop="10dp"/>
+                        <ImageView
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"
+                            android:src="@drawable/star"
+                            android:layout_marginTop="14dp"
+                            android:layout_marginLeft="5dp"/>
+                    </LinearLayout>
+
+                </TableRow>
+                <TableRow>
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/chinah2"
+                        android:layout_column="0"
+                        android:background="#D53838"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginTop="10dp"
+                        android:layout_column="1"
+                        android:paddingRight="30dp">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:layout_marginHorizontal="5dp"
+                            android:text="MAINLAND CHINA"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginHorizontal="5dp"
+                            android:textSize="12sp"
+                            android:text="Wuhan"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginHorizontal="5dp"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            android:text="1011.00 CAD"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginHorizontal="5dp"
+                            android:textSize="12sp"
+                            android:text="2 kms from City Center"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:paddingLeft="10dp"
+                        android:layout_column="1"
+                        android:background="#AEA8A8">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginHorizontal="5dp"
+                            android:text="7.0"
+                            android:layout_column="2"
+                            android:layout_marginTop="10dp"/>
+                        <ImageView
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"
+                            android:src="@drawable/star"
+                            android:layout_marginTop="14dp"
+                            android:layout_marginLeft="5dp"/>
+                    </LinearLayout>
+
+                </TableRow>
+                <TableRow>
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/chinah3"
+                        android:layout_column="0"
+                        android:background="#D53838"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginTop="10dp"
+                        android:layout_column="1"
+                        android:paddingRight="30dp">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:layout_marginHorizontal="5dp"
+                            android:text="IBIS CHINA"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginHorizontal="5dp"
+                            android:textSize="12sp"
+                            android:text="Shanghai"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginHorizontal="5dp"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            android:text="1100.00 CAD"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginHorizontal="5dp"
+                            android:textSize="12sp"
+                            android:text="3 kms from City Center"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:paddingLeft="10dp"
+                        android:layout_column="1"
+                        android:background="#AEA8A8">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginHorizontal="5dp"
+                            android:text="7.5"
+                            android:layout_column="2"
+                            android:layout_marginTop="10dp"/>
+                        <ImageView
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"
+                            android:src="@drawable/star"
+                            android:layout_marginTop="14dp"
+                            android:layout_marginLeft="5dp"/>
+                    </LinearLayout>
+
+                </TableRow>
+                <TableRow>
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/chinah4"
+                        android:layout_column="0"
+                        android:background="#D53838"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginTop="10dp"
+                        android:layout_column="1"
+                        android:paddingRight="30dp">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:layout_marginHorizontal="5dp"
+                            android:text="EROS HOTEL"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginHorizontal="5dp"
+                            android:textSize="12sp"
+                            android:text="Beijing"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginHorizontal="5dp"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            android:text="1500.00 CAD"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginHorizontal="5dp"
+                            android:textSize="12sp"
+                            android:text="0 kms from City Center"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:paddingLeft="10dp"
+                        android:layout_column="1"
+                        android:background="#AEA8A8">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginHorizontal="5dp"
+                            android:text="9.0"
+                            android:layout_column="2"
+                            android:layout_marginTop="10dp"/>
+                        <ImageView
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"
+                            android:src="@drawable/star"
+                            android:layout_marginTop="14dp"
+                            android:layout_marginLeft="5dp"/>
+                    </LinearLayout>
+
+                </TableRow>
+
+
+            </TableLayout>
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

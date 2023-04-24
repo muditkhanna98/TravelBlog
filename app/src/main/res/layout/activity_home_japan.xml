@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeJapan">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="350dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginVertical="10dp"
+                android:text="Japan"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/flagjapan" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="             Head of Government: Kishida Fumio \n
+            Capital:  Tokyo \n
+            Climate:  Humid monsoon \n
+            Population:  (2021 est.) 125,497,000 \n
+            Currency Exchange Rate:  1 USD = 115.015 JPN yen\n
+            Form of Government:  Constitutional monarchy"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginVertical="10dp"
+                android:text="Japan, Island country, East Asia, western Pacific Ocean. Its four main islands are Hokkaido, Honshu, Shikoku, and Kyushu. It is separated from the Asian mainland by the Sea of Japan (East Sea). Area: 145,937 sq mi (377,975 sq km). Population: (2021 est.) 125,497,000. Capital: Tokyo. The Japanese overwhelmingly are a single Asian ethnic group. Language: Japanese (official). Religions: Shintō, Buddhism; also Christianity. Currency: yen. Situated in one of Earth’s most geologically active zones, Japan experiences volcanic eruptions and earthquakes. Mountain ranges cover some four-fifths of its land surface; its highest mountain is Mount Fuji. The economy, one of the world’s biggest, is based largely on manufacturing and services; exports include electronic and electrical equipment, motor vehicles, chemicals, and iron and steel products. The government’s involvement in banking results in unique cooperation between the public and private sectors."
+                android:textSize="18sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="openJapanMap"
+                android:src="@drawable/japanmap" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="10dp"
+                        android:onClick="openJapanAccomodations"
+                        android:text="Accomodations" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="10dp"
+                        android:onClick="openJapanCuisines"
+                        android:text="Cuisines" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="10dp"
+                        android:onClick="openJapanGallery"
+                        android:text="Gallery" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="10dp"
+                        android:onClick="openJapanGettingAround"
+                        android:text="Getting Around" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp" />
+        </LinearLayout>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
