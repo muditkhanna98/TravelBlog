@@ -15,6 +15,12 @@ public class HomeSpain extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home_spain);
+
+        if (savedInstanceState == null) {
+            getSupportFragmentManager().beginTransaction()
+                    .replace(R.id.fragmentContainer, new MapsFragment(40.4168, -3.7038, "Spain"))
+                    .commit();
+        }
     }
 
     public void openSpainAccomodations(View view) {
@@ -35,16 +41,5 @@ public class HomeSpain extends AppCompatActivity {
     public void openSpainGettingAround(View view) {
         Intent intent = new Intent(HomeSpain.this, SpainGettingAround.class);
         startActivity(intent);
-    }
-
-    public void openSpainMap(View view) {
-        String parameter = "+40.4168,3.7038?z=7";
-        Uri mapURI = Uri.parse("geo:" + parameter);
-        Intent mapsIntent = new Intent(Intent.ACTION_VIEW, mapURI); //mapsIntent.setData(mapURI);
-        if (mapsIntent.resolveActivity(getPackageManager()) != null) {
-            startActivity(mapsIntent);
-        }
-        Toast.makeText(this, "Routing to Spain", Toast.LENGTH_SHORT).show();
-        startActivityForResult(mapsIntent, MAP_REQUEST);
     }
 }

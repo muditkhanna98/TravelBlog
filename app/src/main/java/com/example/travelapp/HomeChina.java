@@ -8,6 +8,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
 
+import com.google.android.gms.maps.MapFragment;
+
 public class HomeChina extends AppCompatActivity {
     private static final int MAP_REQUEST = 1000;
 
@@ -15,6 +17,12 @@ public class HomeChina extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home_china);
+
+        if (savedInstanceState == null) {
+            getSupportFragmentManager().beginTransaction()
+                    .replace(R.id.fragmentContainer, new MapsFragment(35.8617, 104.1954,"China"))
+                    .commit();
+        }
     }
 
     public void openChinaAccomodations(View view) {
@@ -36,16 +44,4 @@ public class HomeChina extends AppCompatActivity {
         Intent intent = new Intent(HomeChina.this, ChinaGettingAround.class);
         startActivity(intent);
     }
-
-    public void openChinaMap(View view) {
-        String parameter = "+39.9042,116.4074?z=10";
-        Uri mapURI = Uri.parse("geo:" + parameter);
-        Intent mapsIntent = new Intent(Intent.ACTION_VIEW, mapURI); //mapsIntent.setData(mapURI);
-        if (mapsIntent.resolveActivity(getPackageManager()) != null) {
-            startActivity(mapsIntent);
-        }
-        Toast.makeText(this, "Routing to china", Toast.LENGTH_SHORT).show();
-        startActivityForResult(mapsIntent, MAP_REQUEST);
-    }
-
 }

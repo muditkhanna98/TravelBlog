@@ -53,11 +53,10 @@
                 android:text="France, officially French Republic, Country, northwestern Europe. It includes the island of Corsica. Area: 210,017 sq mi (543,941 sq km). Population: (2021 est.) 65,404,000.Capital: Paris. The people are mainly French. Language: French (official). Religions: Christianity (predominantly Roman Catholic; also Protestant); also Islam, Judaism. Currency: euro. France has extensive plains, rivers, and a number of mountain ranges, including the Pyrenees and the Alps. The climate is generally moderate. More than half of the land is suitable for agriculture, and forests, largely unexploited, cover about one-fourth of the area. France has a developed mixed economy with a preponderance of small firms. It is a republic with two legislative houses; its head of state is the president, and the head of government is the prime minister. France is one of the major economic powers of the world and was a founding member of the European Community."
                 android:textSize="18sp" />
 
-            <ImageView
+            <FrameLayout
+                android:id="@+id/fragmentContainer"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:onClick="openFranceMap"
-                android:src="@drawable/francemap" />
+                android:layout_height="360dp" />
 
             <LinearLayout
                 android:layout_width="match_parent"

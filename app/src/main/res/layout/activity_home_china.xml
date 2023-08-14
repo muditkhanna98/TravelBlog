@@ -9,7 +9,9 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:fillViewport="true">
+        android:fillViewport="true"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-103dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -54,11 +56,10 @@
                 android:text="China, officially People’s Republic of China, Country, eastern Asia. Area: 3,696,118 sq mi (9,572,900 sq km). Population: (2021 est.) 1,416,687,000. Capital: Beijing. It is the world’s most populous country, the Han (ethnic Chinese) forming more than nine-tenths of the population. Languages: dialects of Han Chinese, Mandarin being the most important. Religions: traditional beliefs, Buddhism, Christianity, Islam, Daoism (all legally sanctioned). Currency: renminbi (of which the unit is the yuan). The southwestern area contains the Plateau of Tibet, which averages more than 13,000 ft (4,000 m) above sea level; its core area, averaging more than 16,000 ft (5,000 m) in elevation, is called “the Roof of the World” and provides the headwaters for many of Asia’s major rivers. China’s northwestern region stretches from Afghanistan to the Northeast (Manchurian) Plain. The Tien Shan (“Celestial Mountains”) separate China’s two major interior basins, the Tarim Basin (containing the Takla Makan Desert) and the Junggar Basin."
                 android:textSize="18sp" />
 
-            <ImageView
+            <FrameLayout
+                android:id="@+id/fragmentContainer"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:onClick="openChinaMap"
-                android:src="@drawable/chinamap" />
+                android:layout_height="360dp" />
 
             <LinearLayout
                 android:layout_width="match_parent"

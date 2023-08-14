@@ -53,11 +53,10 @@
                 android:text="Japan, Island country, East Asia, western Pacific Ocean. Its four main islands are Hokkaido, Honshu, Shikoku, and Kyushu. It is separated from the Asian mainland by the Sea of Japan (East Sea). Area: 145,937 sq mi (377,975 sq km). Population: (2021 est.) 125,497,000. Capital: Tokyo. The Japanese overwhelmingly are a single Asian ethnic group. Language: Japanese (official). Religions: Shintō, Buddhism; also Christianity. Currency: yen. Situated in one of Earth’s most geologically active zones, Japan experiences volcanic eruptions and earthquakes. Mountain ranges cover some four-fifths of its land surface; its highest mountain is Mount Fuji. The economy, one of the world’s biggest, is based largely on manufacturing and services; exports include electronic and electrical equipment, motor vehicles, chemicals, and iron and steel products. The government’s involvement in banking results in unique cooperation between the public and private sectors."
                 android:textSize="18sp" />
 
-            <ImageView
+            <FrameLayout
+                android:id="@+id/fragmentContainer"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:onClick="openJapanMap"
-                android:src="@drawable/japanmap" />
+                android:layout_height="360dp" />
 
             <LinearLayout
                 android:layout_width="match_parent"

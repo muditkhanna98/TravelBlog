@@ -15,6 +15,12 @@ public class HomeFrance extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home_france);
+
+        if (savedInstanceState == null) {
+            getSupportFragmentManager().beginTransaction()
+                    .replace(R.id.fragmentContainer, new MapsFragment(48.8566, 2.3522, "France"))
+                    .commit();
+        }
     }
 
     public void openFranceAccomodations(View view) {
@@ -37,14 +43,4 @@ public class HomeFrance extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void openFranceMap(View view) {
-        String parameter = "+46.2276,2.2137?z=7";
-        Uri mapURI = Uri.parse("geo:" + parameter);
-        Intent mapsIntent = new Intent(Intent.ACTION_VIEW, mapURI); //mapsIntent.setData(mapURI);
-        if (mapsIntent.resolveActivity(getPackageManager()) != null) {
-            startActivity(mapsIntent);
-        }
-        Toast.makeText(this, "Routing to France", Toast.LENGTH_SHORT).show();
-        startActivityForResult(mapsIntent, MAP_REQUEST);
-    }
 }

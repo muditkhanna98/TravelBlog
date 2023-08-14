@@ -15,6 +15,12 @@ public class HomeJapan extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home_japan);
+
+        if (savedInstanceState == null) {
+            getSupportFragmentManager().beginTransaction()
+                    .replace(R.id.fragmentContainer, new MapsFragment(35.6895, 139.6917, "Japan"))
+                    .commit();
+        }
     }
 
     public void openJapanAccomodations(View view) {
@@ -37,14 +43,4 @@ public class HomeJapan extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void openJapanMap(View view) {
-        String parameter = "+35.6762,139.6503?z=7";
-        Uri mapURI = Uri.parse("geo:" + parameter);
-        Intent mapsIntent = new Intent(Intent.ACTION_VIEW, mapURI); //mapsIntent.setData(mapURI);
-        if (mapsIntent.resolveActivity(getPackageManager()) != null) {
-            startActivity(mapsIntent);
-        }
-        Toast.makeText(this, "Routing to Japan", Toast.LENGTH_SHORT).show();
-        startActivityForResult(mapsIntent, MAP_REQUEST);
-    }
 }
